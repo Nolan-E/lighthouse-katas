@@ -15,9 +15,7 @@ const calculateChange = function(total, cash) {
       newObj[typeOfChange[i]] = numberOfChange[String(i)];
     }
   }
-  console.log(typeof newObj.twoDollar);
   return newObj;
-
 };
 
 // // { twoDollar: 1, dime: 1, penny: 3 }      213 > 13 
