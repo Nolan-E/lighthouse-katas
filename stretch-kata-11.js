@@ -16,6 +16,7 @@ const calculateChange = function(total, cash) {
     }
   }
   return newObj;
+  // return numberOfChange;
 };
 
 // // { twoDollar: 1, dime: 1, penny: 3 }      213 > 13 
